@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exercício 8 da disciplina ProgWeb">
+    <meta name="keywords" content="HTML,Exercício, ProgWeb">
+    <meta name="author" content="Jane Eleutério">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form action="/calc" method="POST">
+        <label for="valorA">Valor a:</label>
+        <input type="number" id="valorA" name="a">
+        <br>
+        <label for="valorB">Valor b:</label>
+        <input type="number" id="valorB" name="b">
+        <br>
+        <fieldset>
+            <legend>Operação</legend>
+            <input type="radio" id="somar" name="op" value="somar">
+            <label for="somar">+</label>
+            <br>
+            <input type="radio" id="subtrair" name="op" value="subtrair">
+            <label for="subtrair">-</label>
+            <br>
+            <input type="radio" id="multiplicar" name="op" value="multiplicar">
+            <label for="multiplicar">*</label>
+            
+        </fieldset>
+        <br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+  font: 14px Times, sans-serif;
+  background-color: #f1f3f4;  
+}
+
+h1,
+h2 {
+  font-family: "Sofia";
+  font-style: italic;
+  text-shadow: 2px 2px 2px #ababab;
+}
